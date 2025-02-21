@@ -1,0 +1,656 @@
+title,authors,abstract,summary,paper_url,pdf_url,date
+"Time Travel: A Comprehensive Benchmark to Evaluate LMMs on Historical
+  and Cultural Artifacts","Sara Ghaboura, Ketan More, Ritesh Thawkar, Wafa Alghallabi, Omkar Thawakar, Fahad Shahbaz Khan, Hisham Cholakkal, Salman Khan, Rao Muhammad Anwer","Understanding historical and cultural artifacts demands human expertise and
+advanced computational techniques, yet the process remains complex and
+time-intensive. While large multimodal models offer promising support, their
+evaluation and improvement require a standardized benchmark. To address this,
+we introduce TimeTravel, a benchmark of 10,250 expert-verified samples spanning
+266 distinct cultures across 10 major historical regions. Designed for
+AI-driven analysis of manuscripts, artworks, inscriptions, and archaeological
+discoveries, TimeTravel provides a structured dataset and robust evaluation
+framework to assess AI models' capabilities in classification, interpretation,
+and historical comprehension. By integrating AI with historical research,
+TimeTravel fosters AI-powered tools for historians, archaeologists,
+researchers, and cultural tourists to extract valuable insights while ensuring
+technology contributes meaningfully to historical discovery and cultural
+heritage preservation. We evaluate contemporary AI models on TimeTravel,
+highlighting their strengths and identifying areas for improvement. Our goal is
+to establish AI as a reliable partner in preserving cultural heritage, ensuring
+that technological advancements contribute meaningfully to historical
+discovery. Our code is available at:
+\url{https://github.com/mbzuai-oryx/TimeTravel}.","Understanding historical and cultural artifacts demands human expertise and
+advanced computational techniques, yet the process remains complex and
+time-intensive. While large multimodal models offer promising support, their
+evaluation and improvement require a standardized benchmark. To address this,
+we introduce TimeTravel, a benchmark of 10,250 expert-verified samples spanning
+266 distinct cultures across 10 major historical regions. Designed for
+AI-driven analysis of manuscripts, artworks, inscriptions, and archaeological
+discoveries, TimeTravel provides a structured dataset and robust evaluation
+framework to assess AI models' capabilities in classification, interpretation,
+and historical comprehension. By integrating AI with historical research,
+TimeTravel fosters AI-powered tools for historians, archaeologists,
+researchers, and cultural tourists to extract valuable insights while ensuring
+technology contributes meaningfully to historical discovery and cultural
+heritage preservation. We evaluate contemporary AI models on TimeTravel,
+highlighting their strengths and identifying areas for improvement. Our goal is
+to establish AI as a reliable partner in preserving cultural heritage, ensuring
+that technological advancements contribute meaningfully to historical
+discovery. Our code is available at:
+\url{https://github.com/mbzuai-oryx/TimeTravel}.",http://arxiv.org/abs/2502.14865v1,http://arxiv.org/pdf/2502.14865v1.pdf,2025-02-20 18:59:51+00:00
+Interpretable Text Embeddings and Text Similarity Explanation: A Primer,"Juri Opitz, Lucas Möller, Andrianos Michail, Simon Clematide","Text embeddings and text embedding models are a backbone of many AI and NLP
+systems, particularly those involving search. However, interpretability
+challenges persist, especially in explaining obtained similarity scores, which
+is crucial for applications requiring transparency. In this paper, we give a
+structured overview of interpretability methods specializing in explaining
+those similarity scores, an emerging research area. We study the methods'
+individual ideas and techniques, evaluating their potential for improving
+interpretability of text embeddings and explaining predicted similarities.","Text embeddings and text embedding models are a backbone of many AI and NLP
+systems, particularly those involving search. However, interpretability
+challenges persist, especially in explaining obtained similarity scores, which
+is crucial for applications requiring transparency. In this paper, we give a
+structured overview of interpretability methods specializing in explaining
+those similarity scores, an emerging research area. We study the methods'
+individual ideas and techniques, evaluating their potential for improving
+interpretability of text embeddings and explaining predicted similarities.",http://arxiv.org/abs/2502.14862v1,http://arxiv.org/pdf/2502.14862v1.pdf,2025-02-20 18:59:34+00:00
+"Probabilistic Robustness in Deep Learning: A Concise yet Comprehensive
+  Guide",Xingyu Zhao,"Deep learning (DL) has demonstrated significant potential across various
+safety-critical applications, yet ensuring its robustness remains a key
+challenge. While adversarial robustness has been extensively studied in
+worst-case scenarios, probabilistic robustness (PR) offers a more practical
+perspective by quantifying the likelihood of failures under stochastic
+perturbations. This paper provides a concise yet comprehensive overview of PR,
+covering its formal definitions, evaluation and enhancement methods. We
+introduce a reformulated ''min-max'' optimisation framework for adversarial
+training specifically designed to improve PR. Furthermore, we explore the
+integration of PR verification evidence into system-level safety assurance,
+addressing challenges in translating DL model-level robustness to system-level
+claims. Finally, we highlight open research questions, including benchmarking
+PR evaluation methods, extending PR to generative AI tasks, and developing
+rigorous methodologies and case studies for system-level integration.","Deep learning (DL) has demonstrated significant potential across various
+safety-critical applications, yet ensuring its robustness remains a key
+challenge. While adversarial robustness has been extensively studied in
+worst-case scenarios, probabilistic robustness (PR) offers a more practical
+perspective by quantifying the likelihood of failures under stochastic
+perturbations. This paper provides a concise yet comprehensive overview of PR,
+covering its formal definitions, evaluation and enhancement methods. We
+introduce a reformulated ''min-max'' optimisation framework for adversarial
+training specifically designed to improve PR. Furthermore, we explore the
+integration of PR verification evidence into system-level safety assurance,
+addressing challenges in translating DL model-level robustness to system-level
+claims. Finally, we highlight open research questions, including benchmarking
+PR evaluation methods, extending PR to generative AI tasks, and developing
+rigorous methodologies and case studies for system-level integration.",http://arxiv.org/abs/2502.14833v1,http://arxiv.org/pdf/2502.14833v1.pdf,2025-02-20 18:47:17+00:00
+"Learning from Reward-Free Offline Data: A Case for Planning with Latent
+  Dynamics Models","Vlad Sobal, Wancong Zhang, Kynghyun Cho, Randall Balestriero, Tim G. J. Rudner, Yann LeCun","A long-standing goal in AI is to build agents that can solve a variety of
+tasks across different environments, including previously unseen ones. Two
+dominant approaches tackle this challenge: (i) reinforcement learning (RL),
+which learns policies through trial and error, and (ii) optimal control, which
+plans actions using a learned or known dynamics model. However, their relative
+strengths and weaknesses remain underexplored in the setting where agents must
+learn from offline trajectories without reward annotations. In this work, we
+systematically analyze the performance of different RL and control-based
+methods under datasets of varying quality. On the RL side, we consider
+goal-conditioned and zero-shot approaches. On the control side, we train a
+latent dynamics model using the Joint Embedding Predictive Architecture (JEPA)
+and use it for planning. We study how dataset properties-such as data
+diversity, trajectory quality, and environment variability-affect the
+performance of these approaches. Our results show that model-free RL excels
+when abundant, high-quality data is available, while model-based planning
+excels in generalization to novel environment layouts, trajectory stitching,
+and data-efficiency. Notably, planning with a latent dynamics model emerges as
+a promising approach for zero-shot generalization from suboptimal data.","A long-standing goal in AI is to build agents that can solve a variety of
+tasks across different environments, including previously unseen ones. Two
+dominant approaches tackle this challenge: (i) reinforcement learning (RL),
+which learns policies through trial and error, and (ii) optimal control, which
+plans actions using a learned or known dynamics model. However, their relative
+strengths and weaknesses remain underexplored in the setting where agents must
+learn from offline trajectories without reward annotations. In this work, we
+systematically analyze the performance of different RL and control-based
+methods under datasets of varying quality. On the RL side, we consider
+goal-conditioned and zero-shot approaches. On the control side, we train a
+latent dynamics model using the Joint Embedding Predictive Architecture (JEPA)
+and use it for planning. We study how dataset properties-such as data
+diversity, trajectory quality, and environment variability-affect the
+performance of these approaches. Our results show that model-free RL excels
+when abundant, high-quality data is available, while model-based planning
+excels in generalization to novel environment layouts, trajectory stitching,
+and data-efficiency. Notably, planning with a latent dynamics model emerges as
+a promising approach for zero-shot generalization from suboptimal data.",http://arxiv.org/abs/2502.14819v1,http://arxiv.org/pdf/2502.14819v1.pdf,2025-02-20 18:39:41+00:00
+Optimizing Model Selection for Compound AI Systems,"Lingjiao Chen, Jared Quincy Davis, Boris Hanin, Peter Bailis, Matei Zaharia, James Zou, Ion Stoica","Compound AI systems that combine multiple LLM calls, such as self-refine and
+multi-agent-debate, achieve strong performance on many AI tasks. We address a
+core question in optimizing compound systems: for each LLM call or module in
+the system, how should one decide which LLM to use? We show that these LLM
+choices have a large effect on quality, but the search space is exponential. We
+propose LLMSelector, an efficient framework for model selection in compound
+systems, which leverages two key empirical insights: (i) end-to-end performance
+is often monotonic in how well each module performs, with all other modules
+held fixed, and (ii) per-module performance can be estimated accurately by an
+LLM. Building upon these insights, LLMSelector iteratively selects one module
+and allocates to it the model with the highest module-wise performance, as
+estimated by an LLM, until no further gain is possible. LLMSelector is
+applicable to any compound system with a bounded number of modules, and its
+number of API calls scales linearly with the number of modules, achieving
+high-quality model allocation both empirically and theoretically. Experiments
+with popular compound systems such as multi-agent debate and self-refine using
+LLMs such as GPT-4o, Claude 3.5 Sonnet and Gemini 1.5 show that LLMSelector
+confers 5%-70% accuracy gains compared to using the same LLM for all modules.","Compound AI systems that combine multiple LLM calls, such as self-refine and
+multi-agent-debate, achieve strong performance on many AI tasks. We address a
+core question in optimizing compound systems: for each LLM call or module in
+the system, how should one decide which LLM to use? We show that these LLM
+choices have a large effect on quality, but the search space is exponential. We
+propose LLMSelector, an efficient framework for model selection in compound
+systems, which leverages two key empirical insights: (i) end-to-end performance
+is often monotonic in how well each module performs, with all other modules
+held fixed, and (ii) per-module performance can be estimated accurately by an
+LLM. Building upon these insights, LLMSelector iteratively selects one module
+and allocates to it the model with the highest module-wise performance, as
+estimated by an LLM, until no further gain is possible. LLMSelector is
+applicable to any compound system with a bounded number of modules, and its
+number of API calls scales linearly with the number of modules, achieving
+high-quality model allocation both empirically and theoretically. Experiments
+with popular compound systems such as multi-agent debate and self-refine using
+LLMs such as GPT-4o, Claude 3.5 Sonnet and Gemini 1.5 show that LLMSelector
+confers 5%-70% accuracy gains compared to using the same LLM for all modules.",http://arxiv.org/abs/2502.14815v1,http://arxiv.org/pdf/2502.14815v1.pdf,2025-02-20 18:36:25+00:00
+"From RAG to Memory: Non-Parametric Continual Learning for Large Language
+  Models","Bernal Jiménez Gutiérrez, Yiheng Shu, Weijian Qi, Sizhe Zhou, Yu Su","Our ability to continuously acquire, organize, and leverage knowledge is a
+key feature of human intelligence that AI systems must approximate to unlock
+their full potential. Given the challenges in continual learning with large
+language models (LLMs), retrieval-augmented generation (RAG) has become the
+dominant way to introduce new information. However, its reliance on vector
+retrieval hinders its ability to mimic the dynamic and interconnected nature of
+human long-term memory. Recent RAG approaches augment vector embeddings with
+various structures like knowledge graphs to address some of these gaps, namely
+sense-making and associativity. However, their performance on more basic
+factual memory tasks drops considerably below standard RAG. We address this
+unintended deterioration and propose HippoRAG 2, a framework that outperforms
+standard RAG comprehensively on factual, sense-making, and associative memory
+tasks. HippoRAG 2 builds upon the Personalized PageRank algorithm used in
+HippoRAG and enhances it with deeper passage integration and more effective
+online use of an LLM. This combination pushes this RAG system closer to the
+effectiveness of human long-term memory, achieving a 7% improvement in
+associative memory tasks over the state-of-the-art embedding model while also
+exhibiting superior factual knowledge and sense-making memory capabilities.
+This work paves the way for non-parametric continual learning for LLMs. Our
+code and data will be released at https://github.com/OSU-NLP-Group/HippoRAG.","Our ability to continuously acquire, organize, and leverage knowledge is a
+key feature of human intelligence that AI systems must approximate to unlock
+their full potential. Given the challenges in continual learning with large
+language models (LLMs), retrieval-augmented generation (RAG) has become the
+dominant way to introduce new information. However, its reliance on vector
+retrieval hinders its ability to mimic the dynamic and interconnected nature of
+human long-term memory. Recent RAG approaches augment vector embeddings with
+various structures like knowledge graphs to address some of these gaps, namely
+sense-making and associativity. However, their performance on more basic
+factual memory tasks drops considerably below standard RAG. We address this
+unintended deterioration and propose HippoRAG 2, a framework that outperforms
+standard RAG comprehensively on factual, sense-making, and associative memory
+tasks. HippoRAG 2 builds upon the Personalized PageRank algorithm used in
+HippoRAG and enhances it with deeper passage integration and more effective
+online use of an LLM. This combination pushes this RAG system closer to the
+effectiveness of human long-term memory, achieving a 7% improvement in
+associative memory tasks over the state-of-the-art embedding model while also
+exhibiting superior factual knowledge and sense-making memory capabilities.
+This work paves the way for non-parametric continual learning for LLMs. Our
+code and data will be released at https://github.com/OSU-NLP-Group/HippoRAG.",http://arxiv.org/abs/2502.14802v1,http://arxiv.org/pdf/2502.14802v1.pdf,2025-02-20 18:26:02+00:00
+A Survey on Text-Driven 360-Degree Panorama Generation,"Hai Wang, Xiaoyu Xiang, Weihao Xia, Jing-Hao Xue","The advent of text-driven 360-degree panorama generation, enabling the
+synthesis of 360-degree panoramic images directly from textual descriptions,
+marks a transformative advancement in immersive visual content creation. This
+innovation significantly simplifies the traditionally complex process of
+producing such content. Recent progress in text-to-image diffusion models has
+accelerated the rapid development in this emerging field. This survey presents
+a comprehensive review of text-driven 360-degree panorama generation, offering
+an in-depth analysis of state-of-the-art algorithms and their expanding
+applications in 360-degree 3D scene generation. Furthermore, we critically
+examine current limitations and propose promising directions for future
+research. A curated project page with relevant resources and research papers is
+available at https://littlewhitesea.github.io/Text-Driven-Pano-Gen/.","The advent of text-driven 360-degree panorama generation, enabling the
+synthesis of 360-degree panoramic images directly from textual descriptions,
+marks a transformative advancement in immersive visual content creation. This
+innovation significantly simplifies the traditionally complex process of
+producing such content. Recent progress in text-to-image diffusion models has
+accelerated the rapid development in this emerging field. This survey presents
+a comprehensive review of text-driven 360-degree panorama generation, offering
+an in-depth analysis of state-of-the-art algorithms and their expanding
+applications in 360-degree 3D scene generation. Furthermore, we critically
+examine current limitations and propose promising directions for future
+research. A curated project page with relevant resources and research papers is
+available at https://littlewhitesea.github.io/Text-Driven-Pano-Gen/.",http://arxiv.org/abs/2502.14799v1,http://arxiv.org/pdf/2502.14799v1.pdf,2025-02-20 18:19:57+00:00
+"ReVision: A Dataset and Baseline VLM for Privacy-Preserving
+  Task-Oriented Visual Instruction Rewriting","Abhijit Mishra, Richard Noh, Hsiang Fu, Mingda Li, Minji Kim","Efficient and privacy-preserving multimodal interaction is essential as AR,
+VR, and modern smartphones with powerful cameras become primary interfaces for
+human-computer communication. Existing powerful large vision-language models
+(VLMs) enabling multimodal interaction often rely on cloud-based processing,
+raising significant concerns about (1) visual privacy by transmitting sensitive
+vision data to servers, and (2) their limited real-time, on-device usability.
+This paper explores Visual Instruction Rewriting, a novel approach that
+transforms multimodal instructions into text-only commands, allowing seamless
+integration of lightweight on-device instruction rewriter VLMs (250M
+parameters) with existing conversational AI systems, enhancing vision data
+privacy. To achieve this, we present a dataset of over 39,000 examples across
+14 domains and develop a compact VLM, pretrained on image captioning datasets
+and fine-tuned for instruction rewriting. Experimental results, evaluated
+through NLG metrics such as BLEU, METEOR, and ROUGE, along with semantic
+parsing analysis, demonstrate that even a quantized version of the model
+(<500MB storage footprint) can achieve effective instruction rewriting, thus
+enabling privacy-focused, multimodal AI applications.","Efficient and privacy-preserving multimodal interaction is essential as AR,
+VR, and modern smartphones with powerful cameras become primary interfaces for
+human-computer communication. Existing powerful large vision-language models
+(VLMs) enabling multimodal interaction often rely on cloud-based processing,
+raising significant concerns about (1) visual privacy by transmitting sensitive
+vision data to servers, and (2) their limited real-time, on-device usability.
+This paper explores Visual Instruction Rewriting, a novel approach that
+transforms multimodal instructions into text-only commands, allowing seamless
+integration of lightweight on-device instruction rewriter VLMs (250M
+parameters) with existing conversational AI systems, enhancing vision data
+privacy. To achieve this, we present a dataset of over 39,000 examples across
+14 domains and develop a compact VLM, pretrained on image captioning datasets
+and fine-tuned for instruction rewriting. Experimental results, evaluated
+through NLG metrics such as BLEU, METEOR, and ROUGE, along with semantic
+parsing analysis, demonstrate that even a quantized version of the model
+(<500MB storage footprint) can achieve effective instruction rewriting, thus
+enabling privacy-focused, multimodal AI applications.",http://arxiv.org/abs/2502.14780v1,http://arxiv.org/pdf/2502.14780v1.pdf,2025-02-20 18:01:41+00:00
+"AIdeation: Designing a Human-AI Collaborative Ideation System for
+  Concept Designers","Wen-Fan Wang, Chien-Ting Lu, Nil Ponsa Campanyà, Bing-Yu Chen, Mike Y. Chen","Concept designers in the entertainment industry create highly detailed, often
+imaginary environments for movies, games, and TV shows. Their early ideation
+phase requires intensive research, brainstorming, visual exploration, and
+combination of various design elements to form cohesive designs. However,
+existing AI tools focus on image generation from user specifications, lacking
+support for the unique needs and complexity of concept designers' workflows.
+Through a formative study with 12 professional designers, we captured their
+workflows and identified key requirements for AI-assisted ideation tools.
+Leveraging these insights, we developed AIdeation to support early ideation by
+brainstorming design concepts with flexible searching and recombination of
+reference images. A user study with 16 professional designers showed that
+AIdeation significantly enhanced creativity, ideation efficiency, and
+satisfaction (all p<.01) compared to current tools and workflows. A field study
+with 4 studios for 1 week provided insights into AIdeation's benefits and
+limitations in real-world projects. After the completion of the field study,
+two studios, covering films, television, and games, have continued to use
+AIdeation in their commercial projects to date, further validating AIdeation's
+improvement in ideation quality and efficiency.","Concept designers in the entertainment industry create highly detailed, often
+imaginary environments for movies, games, and TV shows. Their early ideation
+phase requires intensive research, brainstorming, visual exploration, and
+combination of various design elements to form cohesive designs. However,
+existing AI tools focus on image generation from user specifications, lacking
+support for the unique needs and complexity of concept designers' workflows.
+Through a formative study with 12 professional designers, we captured their
+workflows and identified key requirements for AI-assisted ideation tools.
+Leveraging these insights, we developed AIdeation to support early ideation by
+brainstorming design concepts with flexible searching and recombination of
+reference images. A user study with 16 professional designers showed that
+AIdeation significantly enhanced creativity, ideation efficiency, and
+satisfaction (all p<.01) compared to current tools and workflows. A field study
+with 4 studios for 1 week provided insights into AIdeation's benefits and
+limitations in real-world projects. After the completion of the field study,
+two studios, covering films, television, and games, have continued to use
+AIdeation in their commercial projects to date, further validating AIdeation's
+improvement in ideation quality and efficiency.",http://arxiv.org/abs/2502.14747v1,http://arxiv.org/pdf/2502.14747v1.pdf,2025-02-20 17:18:01+00:00
+Multi-Agent Coordination across Diverse Applications: A Survey,"Lijun Sun, Yijun Yang, Qiqi Duan, Yuhui Shi, Chao Lyu, Yu-Cheng Chang, Chin-Teng Lin, Yang Shen","Multi-agent coordination studies the underlying mechanism enabling the
+trending spread of diverse multi-agent systems (MAS) and has received
+increasing attention, driven by the expansion of emerging applications and
+rapid AI advances. This survey outlines the current state of coordination
+research across applications through a unified understanding that answers four
+fundamental coordination questions: (1) what is coordination; (2) why
+coordination; (3) who to coordinate with; and (4) how to coordinate. Our
+purpose is to explore existing ideas and expertise in coordination and their
+connections across diverse applications, while identifying and highlighting
+emerging and promising research directions. First, general coordination
+problems that are essential to varied applications are identified and analyzed.
+Second, a number of MAS applications are surveyed, ranging from widely studied
+domains, e.g., search and rescue, warehouse automation and logistics, and
+transportation systems, to emerging fields including humanoid and
+anthropomorphic robots, satellite systems, and large language models (LLMs).
+Finally, open challenges about the scalability, heterogeneity, and learning
+mechanisms of MAS are analyzed and discussed. In particular, we identify the
+hybridization of hierarchical and decentralized coordination, human-MAS
+coordination, and LLM-based MAS as promising future directions.","Multi-agent coordination studies the underlying mechanism enabling the
+trending spread of diverse multi-agent systems (MAS) and has received
+increasing attention, driven by the expansion of emerging applications and
+rapid AI advances. This survey outlines the current state of coordination
+research across applications through a unified understanding that answers four
+fundamental coordination questions: (1) what is coordination; (2) why
+coordination; (3) who to coordinate with; and (4) how to coordinate. Our
+purpose is to explore existing ideas and expertise in coordination and their
+connections across diverse applications, while identifying and highlighting
+emerging and promising research directions. First, general coordination
+problems that are essential to varied applications are identified and analyzed.
+Second, a number of MAS applications are surveyed, ranging from widely studied
+domains, e.g., search and rescue, warehouse automation and logistics, and
+transportation systems, to emerging fields including humanoid and
+anthropomorphic robots, satellite systems, and large language models (LLMs).
+Finally, open challenges about the scalability, heterogeneity, and learning
+mechanisms of MAS are analyzed and discussed. In particular, we identify the
+hybridization of hierarchical and decentralized coordination, human-MAS
+coordination, and LLM-based MAS as promising future directions.",http://arxiv.org/abs/2502.14743v1,http://arxiv.org/pdf/2502.14743v1.pdf,2025-02-20 17:12:45+00:00
+Human Misperception of Generative-AI Alignment: A Laboratory Experiment,"Kevin He, Ran Shorrer, Mengjia Xia","We conduct an incentivized laboratory experiment to study people's perception
+of generative artificial intelligence (GenAI) alignment in the context of
+economic decision-making. Using a panel of economic problems spanning the
+domains of risk, time preference, social preference, and strategic
+interactions, we ask human subjects to make choices for themselves and to
+predict the choices made by GenAI on behalf of a human user. We find that
+people overestimate the degree of alignment between GenAI's choices and human
+choices. In every problem, human subjects' average prediction about GenAI's
+choice is substantially closer to the average human-subject choice than it is
+to the GenAI choice. At the individual level, different subjects' predictions
+about GenAI's choice in a given problem are highly correlated with their own
+choices in the same problem. We explore the implications of people
+overestimating GenAI alignment in a simple theoretical model.","We conduct an incentivized laboratory experiment to study people's perception
+of generative artificial intelligence (GenAI) alignment in the context of
+economic decision-making. Using a panel of economic problems spanning the
+domains of risk, time preference, social preference, and strategic
+interactions, we ask human subjects to make choices for themselves and to
+predict the choices made by GenAI on behalf of a human user. We find that
+people overestimate the degree of alignment between GenAI's choices and human
+choices. In every problem, human subjects' average prediction about GenAI's
+choice is substantially closer to the average human-subject choice than it is
+to the GenAI choice. At the individual level, different subjects' predictions
+about GenAI's choice in a given problem are highly correlated with their own
+choices in the same problem. We explore the implications of people
+overestimating GenAI alignment in a simple theoretical model.",http://arxiv.org/abs/2502.14708v1,http://arxiv.org/pdf/2502.14708v1.pdf,2025-02-20 16:32:42+00:00
+"Explanations of Deep Language Models Explain Language Representations in
+  the Brain","Maryam Rahimi, Yadollah Yaghoobzadeh, Mohammad Reza Daliri","Recent advances in artificial intelligence have given rise to large language
+models (LLMs) that not only achieve human-like performance but also share
+computational principles with the brain's language processing mechanisms. While
+previous research has primarily focused on aligning LLMs' internal
+representations with neural activity, we introduce a novel approach that
+leverages explainable AI (XAI) methods to forge deeper connections between the
+two domains. Using attribution methods, we quantified how preceding words
+contribute to an LLM's next-word predictions and employed these explanations to
+predict fMRI recordings from participants listening to the same narratives. Our
+findings demonstrate that attribution methods robustly predict brain activity
+across the language network, surpassing traditional internal representations in
+early language areas. This alignment is hierarchical: early-layer explanations
+correspond to the initial stages of language processing in the brain, while
+later layers align with more advanced stages. Moreover, the layers more
+influential on LLM next-word prediction$\unicode{x2014}$those with higher
+attribution scores$\unicode{x2014}$exhibited stronger alignment with neural
+activity. This work establishes a bidirectional bridge between AI and
+neuroscience. First, we demonstrate that attribution methods offer a powerful
+lens for investigating the neural mechanisms of language comprehension,
+revealing how meaning emerges from preceding context. Second, we propose using
+brain alignment as a metric to evaluate the validity of attribution methods,
+providing a framework for assessing their biological plausibility.","Recent advances in artificial intelligence have given rise to large language
+models (LLMs) that not only achieve human-like performance but also share
+computational principles with the brain's language processing mechanisms. While
+previous research has primarily focused on aligning LLMs' internal
+representations with neural activity, we introduce a novel approach that
+leverages explainable AI (XAI) methods to forge deeper connections between the
+two domains. Using attribution methods, we quantified how preceding words
+contribute to an LLM's next-word predictions and employed these explanations to
+predict fMRI recordings from participants listening to the same narratives. Our
+findings demonstrate that attribution methods robustly predict brain activity
+across the language network, surpassing traditional internal representations in
+early language areas. This alignment is hierarchical: early-layer explanations
+correspond to the initial stages of language processing in the brain, while
+later layers align with more advanced stages. Moreover, the layers more
+influential on LLM next-word prediction$\unicode{x2014}$those with higher
+attribution scores$\unicode{x2014}$exhibited stronger alignment with neural
+activity. This work establishes a bidirectional bridge between AI and
+neuroscience. First, we demonstrate that attribution methods offer a powerful
+lens for investigating the neural mechanisms of language comprehension,
+revealing how meaning emerges from preceding context. Second, we propose using
+brain alignment as a metric to evaluate the validity of attribution methods,
+providing a framework for assessing their biological plausibility.",http://arxiv.org/abs/2502.14671v1,http://arxiv.org/pdf/2502.14671v1.pdf,2025-02-20 16:05:45+00:00
+"Augmenting Coaching with GenAI: Insights into Use, Effectiveness, and
+  Future Potential",Jennifer Haase,"The integration of generative AI (GenAI) tools, particularly large language
+models (LLMs), is transforming professional coaching workflows. This study
+explores how coaches use GenAI, the perceived benefits and limitations of these
+tools, and broader attitudes toward AI-assisted coaching. A survey of 205
+coaching professionals reveals widespread adoption of GenAI for research,
+content creation, and administrative support, while its role in relational and
+interpretative coaching remains limited. Findings indicate that AI literacy and
+perceived AI impact strongly predict GenAI adoption, with positive attitudes
+fostering greater use. Ethical considerations, particularly transparency and
+data privacy, are a key concern, with frequent AI users demonstrating greater
+ethical awareness. Regression analyses show that while perceived effectiveness
+drives GenAI adoption, concerns about AI replacing human coaches do not
+significantly influence usage. Coaches express interest in future AI
+capabilities that enhance personalization, real-time feedback, and
+administrative automation while maintaining human oversight. The study
+highlights that GenAI functions best as an augmentation tool rather than a
+replacement, emphasizing the need for AI literacy training, ethical guidelines,
+and human-centered AI integration. These findings contribute to the ongoing
+discourse on human-AI collaboration, advocating for responsible and effective
+AI adoption in professional coaching.","The integration of generative AI (GenAI) tools, particularly large language
+models (LLMs), is transforming professional coaching workflows. This study
+explores how coaches use GenAI, the perceived benefits and limitations of these
+tools, and broader attitudes toward AI-assisted coaching. A survey of 205
+coaching professionals reveals widespread adoption of GenAI for research,
+content creation, and administrative support, while its role in relational and
+interpretative coaching remains limited. Findings indicate that AI literacy and
+perceived AI impact strongly predict GenAI adoption, with positive attitudes
+fostering greater use. Ethical considerations, particularly transparency and
+data privacy, are a key concern, with frequent AI users demonstrating greater
+ethical awareness. Regression analyses show that while perceived effectiveness
+drives GenAI adoption, concerns about AI replacing human coaches do not
+significantly influence usage. Coaches express interest in future AI
+capabilities that enhance personalization, real-time feedback, and
+administrative automation while maintaining human oversight. The study
+highlights that GenAI functions best as an augmentation tool rather than a
+replacement, emphasizing the need for AI literacy training, ethical guidelines,
+and human-centered AI integration. These findings contribute to the ongoing
+discourse on human-AI collaboration, advocating for responsible and effective
+AI adoption in professional coaching.",http://arxiv.org/abs/2502.14632v1,http://arxiv.org/pdf/2502.14632v1.pdf,2025-02-20 15:10:05+00:00
+A Statistical Case Against Empirical Human-AI Alignment,"Julian Rodemann, Esteban Garces Arias, Christoph Luther, Christoph Jansen, Thomas Augustin","Empirical human-AI alignment aims to make AI systems act in line with
+observed human behavior. While noble in its goals, we argue that empirical
+alignment can inadvertently introduce statistical biases that warrant caution.
+This position paper thus advocates against naive empirical alignment, offering
+prescriptive alignment and a posteriori empirical alignment as alternatives. We
+substantiate our principled argument by tangible examples like human-centric
+decoding of language models.","Empirical human-AI alignment aims to make AI systems act in line with
+observed human behavior. While noble in its goals, we argue that empirical
+alignment can inadvertently introduce statistical biases that warrant caution.
+This position paper thus advocates against naive empirical alignment, offering
+prescriptive alignment and a posteriori empirical alignment as alternatives. We
+substantiate our principled argument by tangible examples like human-centric
+decoding of language models.",http://arxiv.org/abs/2502.14581v1,http://arxiv.org/pdf/2502.14581v1.pdf,2025-02-20 14:12:18+00:00
+Less is More: Improving LLM Alignment via Preference Data Selection,"Xun Deng, Han Zhong, Rui Ai, Fuli Feng, Zheng Wang, Xiangnan He","Direct Preference Optimization (DPO) has emerged as a promising approach for
+aligning large language models with human preferences. While prior work mainly
+extends DPO from the aspect of the objective function, we instead improve DPO
+from the largely overlooked but critical aspect of data selection.
+Specifically, we address the issue of parameter shrinkage caused by noisy data
+by proposing a novel margin-maximization principle for dataset curation in DPO
+training. To accurately estimate margins for data selection, we propose a
+dual-margin guided approach that considers both external reward margins and
+implicit DPO reward margins. Extensive experiments demonstrate that our method
+reduces computational cost dramatically while improving performance.
+Remarkably, by using just 10\% of the Ultrafeedback dataset, our approach
+achieves 3\% to 8\% improvements across various Llama and Mistral series models
+on the AlpacaEval 2.0 benchmark. Furthermore, our approach seamlessly extends
+to iterative DPO, yielding a roughly 3\% improvement with 25\% online data,
+while further reducing training time. These results highlight the potential of
+data selection strategies for advancing preference optimization.","Direct Preference Optimization (DPO) has emerged as a promising approach for
+aligning large language models with human preferences. While prior work mainly
+extends DPO from the aspect of the objective function, we instead improve DPO
+from the largely overlooked but critical aspect of data selection.
+Specifically, we address the issue of parameter shrinkage caused by noisy data
+by proposing a novel margin-maximization principle for dataset curation in DPO
+training. To accurately estimate margins for data selection, we propose a
+dual-margin guided approach that considers both external reward margins and
+implicit DPO reward margins. Extensive experiments demonstrate that our method
+reduces computational cost dramatically while improving performance.
+Remarkably, by using just 10\% of the Ultrafeedback dataset, our approach
+achieves 3\% to 8\% improvements across various Llama and Mistral series models
+on the AlpacaEval 2.0 benchmark. Furthermore, our approach seamlessly extends
+to iterative DPO, yielding a roughly 3\% improvement with 25\% online data,
+while further reducing training time. These results highlight the potential of
+data selection strategies for advancing preference optimization.",http://arxiv.org/abs/2502.14560v1,http://arxiv.org/pdf/2502.14560v1.pdf,2025-02-20 13:45:17+00:00
+"From Mutation to Degradation: Predicting Nonsense-Mediated Decay with
+  NMDEP","Ali Saadat, Jacques Fellay","Nonsense-mediated mRNA decay (NMD) is a critical post-transcriptional
+surveillance mechanism that degrades transcripts with premature termination
+codons, safeguarding transcriptome integrity and shaping disease phenotypes.
+However, accurately predicting NMD efficiency remains challenging, as existing
+models often rely on simplistic rule-based heuristics or limited feature sets,
+constraining their accuracy and generalizability. Using paired DNA and RNA data
+from The Cancer Genome Atlas, we benchmark embedding-only models and
+demonstrate that they underperform compared to a simple rule-based approach. To
+address this, we develop NMDEP (NMD Efficiency Predictor), an integrative
+framework that combines optimized rule-based methods, sequence embeddings, and
+curated biological features, achieving state-of-the-art predictive performance.
+Through explainable AI, we identify key NMD determinants, reaffirming
+established factors such as variant position while uncovering novel
+contributors like ribosome loading. Applied to over 2.9 million simulated
+stop-gain variants, NMDEP facilitates large-scale mRNA degradation assessments,
+advancing variant interpretation and disease research.","Nonsense-mediated mRNA decay (NMD) is a critical post-transcriptional
+surveillance mechanism that degrades transcripts with premature termination
+codons, safeguarding transcriptome integrity and shaping disease phenotypes.
+However, accurately predicting NMD efficiency remains challenging, as existing
+models often rely on simplistic rule-based heuristics or limited feature sets,
+constraining their accuracy and generalizability. Using paired DNA and RNA data
+from The Cancer Genome Atlas, we benchmark embedding-only models and
+demonstrate that they underperform compared to a simple rule-based approach. To
+address this, we develop NMDEP (NMD Efficiency Predictor), an integrative
+framework that combines optimized rule-based methods, sequence embeddings, and
+curated biological features, achieving state-of-the-art predictive performance.
+Through explainable AI, we identify key NMD determinants, reaffirming
+established factors such as variant position while uncovering novel
+contributors like ribosome loading. Applied to over 2.9 million simulated
+stop-gain variants, NMDEP facilitates large-scale mRNA degradation assessments,
+advancing variant interpretation and disease research.",http://arxiv.org/abs/2502.14547v1,http://arxiv.org/pdf/2502.14547v1.pdf,2025-02-20 13:25:08+00:00
+MLGym: A New Framework and Benchmark for Advancing AI Research Agents,"Deepak Nathani, Lovish Madaan, Nicholas Roberts, Nikolay Bashlykov, Ajay Menon, Vincent Moens, Amar Budhiraja, Despoina Magka, Vladislav Vorotilov, Gaurav Chaurasia, Dieuwke Hupkes, Ricardo Silveira Cabral, Tatiana Shavrina, Jakob Foerster, Yoram Bachrach, William Yang Wang, Roberta Raileanu","We introduce Meta MLGym and MLGym-Bench, a new framework and benchmark for
+evaluating and developing LLM agents on AI research tasks. This is the first
+Gym environment for machine learning (ML) tasks, enabling research on
+reinforcement learning (RL) algorithms for training such agents. MLGym-bench
+consists of 13 diverse and open-ended AI research tasks from diverse domains
+such as computer vision, natural language processing, reinforcement learning,
+and game theory. Solving these tasks requires real-world AI research skills
+such as generating new ideas and hypotheses, creating and processing data,
+implementing ML methods, training models, running experiments, analyzing the
+results, and iterating through this process to improve on a given task. We
+evaluate a number of frontier large language models (LLMs) on our benchmarks
+such as Claude-3.5-Sonnet, Llama-3.1 405B, GPT-4o, o1-preview, and Gemini-1.5
+Pro. Our MLGym framework makes it easy to add new tasks, integrate and evaluate
+models or agents, generate synthetic data at scale, as well as develop new
+learning algorithms for training agents on AI research tasks. We find that
+current frontier models can improve on the given baselines, usually by finding
+better hyperparameters, but do not generate novel hypotheses, algorithms,
+architectures, or substantial improvements. We open-source our framework and
+benchmark to facilitate future research in advancing the AI research
+capabilities of LLM agents.","We introduce Meta MLGym and MLGym-Bench, a new framework and benchmark for
+evaluating and developing LLM agents on AI research tasks. This is the first
+Gym environment for machine learning (ML) tasks, enabling research on
+reinforcement learning (RL) algorithms for training such agents. MLGym-bench
+consists of 13 diverse and open-ended AI research tasks from diverse domains
+such as computer vision, natural language processing, reinforcement learning,
+and game theory. Solving these tasks requires real-world AI research skills
+such as generating new ideas and hypotheses, creating and processing data,
+implementing ML methods, training models, running experiments, analyzing the
+results, and iterating through this process to improve on a given task. We
+evaluate a number of frontier large language models (LLMs) on our benchmarks
+such as Claude-3.5-Sonnet, Llama-3.1 405B, GPT-4o, o1-preview, and Gemini-1.5
+Pro. Our MLGym framework makes it easy to add new tasks, integrate and evaluate
+models or agents, generate synthetic data at scale, as well as develop new
+learning algorithms for training agents on AI research tasks. We find that
+current frontier models can improve on the given baselines, usually by finding
+better hyperparameters, but do not generate novel hypotheses, algorithms,
+architectures, or substantial improvements. We open-source our framework and
+benchmark to facilitate future research in advancing the AI research
+capabilities of LLM agents.",http://arxiv.org/abs/2502.14499v1,http://arxiv.org/pdf/2502.14499v1.pdf,2025-02-20 12:28:23+00:00
+"Statistical Scenario Modelling and Lookalike Distributions for
+  Multi-Variate AI Risk",Elija Perrier,"Evaluating AI safety requires statistically rigorous methods and risk metrics
+for understanding how the use of AI affects aggregated risk. However, much AI
+safety literature focuses upon risks arising from AI models in isolation,
+lacking consideration of how modular use of AI affects risk distribution of
+workflow components or overall risk metrics. There is also a lack of
+statistical grounding enabling sensitisation of risk models in the presence of
+absence of AI to estimate causal contributions of AI. This is in part due to
+the dearth of AI impact data upon which to fit distributions. In this work, we
+address these gaps in two ways. First, we demonstrate how scenario modelling
+(grounded in established statistical techniques such as Markov chains, copulas
+and Monte Carlo simulation) can be used to model AI risk holistically. Second,
+we show how lookalike distributions from phenomena analogous to AI can be used
+to estimate AI impacts in the absence of directly observable data. We
+demonstrate the utility of our methods for benchmarking cumulative AI risk via
+risk analysis of a logistic scenario simulations.","Evaluating AI safety requires statistically rigorous methods and risk metrics
+for understanding how the use of AI affects aggregated risk. However, much AI
+safety literature focuses upon risks arising from AI models in isolation,
+lacking consideration of how modular use of AI affects risk distribution of
+workflow components or overall risk metrics. There is also a lack of
+statistical grounding enabling sensitisation of risk models in the presence of
+absence of AI to estimate causal contributions of AI. This is in part due to
+the dearth of AI impact data upon which to fit distributions. In this work, we
+address these gaps in two ways. First, we demonstrate how scenario modelling
+(grounded in established statistical techniques such as Markov chains, copulas
+and Monte Carlo simulation) can be used to model AI risk holistically. Second,
+we show how lookalike distributions from phenomena analogous to AI can be used
+to estimate AI impacts in the absence of directly observable data. We
+demonstrate the utility of our methods for benchmarking cumulative AI risk via
+risk analysis of a logistic scenario simulations.",http://arxiv.org/abs/2502.14491v1,http://arxiv.org/pdf/2502.14491v1.pdf,2025-02-20 12:14:54+00:00
+"An Efficient Ground-aerial Transportation System for Pest Control
+  Enabled by AI-based Autonomous Nano-UAVs","Luca Crupi, Luca Butera, Alberto Ferrante, Alessandro Giusti, Daniele Palossi","Efficient crop production requires early detection of pest outbreaks and
+timely treatments; we consider a solution based on a fleet of multiple
+autonomous miniaturized unmanned aerial vehicles (nano-UAVs) to visually detect
+pests and a single slower heavy vehicle that visits the detected outbreaks to
+deliver treatments. To cope with the extreme limitations aboard nano-UAVs,
+e.g., low-resolution sensors and sub-100 mW computational power budget, we
+design, fine-tune, and optimize a tiny image-based convolutional neural network
+(CNN) for pest detection. Despite the small size of our CNN (i.e., 0.58
+GOps/inference), on our dataset, it scores a mean average precision (mAP) of
+0.79 in detecting harmful bugs, i.e., 14% lower mAP but 32x fewer operations
+than the best-performing CNN in the literature. Our CNN runs in real-time at
+6.8 frame/s, requiring 33 mW on a GWT GAP9 System-on-Chip aboard a Crazyflie
+nano-UAV. Then, to cope with in-field unexpected obstacles, we leverage a
+global+local path planner based on the A* algorithm. The global path planner
+determines the best route for the nano-UAV to sweep the entire area, while the
+local one runs up to 50 Hz aboard our nano-UAV and prevents collision by
+adjusting the short-distance path. Finally, we demonstrate with in-simulator
+experiments that once a 25 nano-UAVs fleet has combed a 200x200 m vineyard,
+collected information can be used to plan the best path for the tractor,
+visiting all and only required hotspots. In this scenario, our efficient
+transportation system, compared to a traditional single-ground vehicle
+performing both inspection and treatment, can save up to 20 h working time.","Efficient crop production requires early detection of pest outbreaks and
+timely treatments; we consider a solution based on a fleet of multiple
+autonomous miniaturized unmanned aerial vehicles (nano-UAVs) to visually detect
+pests and a single slower heavy vehicle that visits the detected outbreaks to
+deliver treatments. To cope with the extreme limitations aboard nano-UAVs,
+e.g., low-resolution sensors and sub-100 mW computational power budget, we
+design, fine-tune, and optimize a tiny image-based convolutional neural network
+(CNN) for pest detection. Despite the small size of our CNN (i.e., 0.58
+GOps/inference), on our dataset, it scores a mean average precision (mAP) of
+0.79 in detecting harmful bugs, i.e., 14% lower mAP but 32x fewer operations
+than the best-performing CNN in the literature. Our CNN runs in real-time at
+6.8 frame/s, requiring 33 mW on a GWT GAP9 System-on-Chip aboard a Crazyflie
+nano-UAV. Then, to cope with in-field unexpected obstacles, we leverage a
+global+local path planner based on the A* algorithm. The global path planner
+determines the best route for the nano-UAV to sweep the entire area, while the
+local one runs up to 50 Hz aboard our nano-UAV and prevents collision by
+adjusting the short-distance path. Finally, we demonstrate with in-simulator
+experiments that once a 25 nano-UAVs fleet has combed a 200x200 m vineyard,
+collected information can be used to plan the best path for the tractor,
+visiting all and only required hotspots. In this scenario, our efficient
+transportation system, compared to a traditional single-ground vehicle
+performing both inspection and treatment, can save up to 20 h working time.",http://arxiv.org/abs/2502.14455v1,http://arxiv.org/pdf/2502.14455v1.pdf,2025-02-20 11:14:55+00:00
+PredictaBoard: Benchmarking LLM Score Predictability,"Lorenzo Pacchiardi, Konstantinos Voudouris, Ben Slater, Fernando Martínez-Plumed, José Hernández-Orallo, Lexin Zhou, Wout Schellaert","Despite possessing impressive skills, Large Language Models (LLMs) often fail
+unpredictably, demonstrating inconsistent success in even basic common sense
+reasoning tasks. This unpredictability poses a significant challenge to
+ensuring their safe deployment, as identifying and operating within a reliable
+""safe zone"" is essential for mitigating risks. To address this, we present
+PredictaBoard, a novel collaborative benchmarking framework designed to
+evaluate the ability of score predictors (referred to as assessors) to
+anticipate LLM errors on specific task instances (i.e., prompts) from existing
+datasets. PredictaBoard evaluates pairs of LLMs and assessors by considering
+the rejection rate at different tolerance errors. As such, PredictaBoard
+stimulates research into developing better assessors and making LLMs more
+predictable, not only with a higher average performance. We conduct
+illustrative experiments using baseline assessors and state-of-the-art LLMs.
+PredictaBoard highlights the critical need to evaluate predictability alongside
+performance, paving the way for safer AI systems where errors are not only
+minimised but also anticipated and effectively mitigated. Code for our
+benchmark can be found at
+https://github.com/Kinds-of-Intelligence-CFI/PredictaBoard","Despite possessing impressive skills, Large Language Models (LLMs) often fail
+unpredictably, demonstrating inconsistent success in even basic common sense
+reasoning tasks. This unpredictability poses a significant challenge to
+ensuring their safe deployment, as identifying and operating within a reliable
+""safe zone"" is essential for mitigating risks. To address this, we present
+PredictaBoard, a novel collaborative benchmarking framework designed to
+evaluate the ability of score predictors (referred to as assessors) to
+anticipate LLM errors on specific task instances (i.e., prompts) from existing
+datasets. PredictaBoard evaluates pairs of LLMs and assessors by considering
+the rejection rate at different tolerance errors. As such, PredictaBoard
+stimulates research into developing better assessors and making LLMs more
+predictable, not only with a higher average performance. We conduct
+illustrative experiments using baseline assessors and state-of-the-art LLMs.
+PredictaBoard highlights the critical need to evaluate predictability alongside
+performance, paving the way for safer AI systems where errors are not only
+minimised but also anticipated and effectively mitigated. Code for our
+benchmark can be found at
+https://github.com/Kinds-of-Intelligence-CFI/PredictaBoard",http://arxiv.org/abs/2502.14445v1,http://arxiv.org/pdf/2502.14445v1.pdf,2025-02-20 10:52:38+00:00
